@@ -1,0 +1,146 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.navbar a button{
+  background:none;
+  border: none;
+  position: absolute;
+  top : 50px;
+  left : 5.2%;
+  z-index:10;
+}
+.navbar a button:hover{
+  cursor:pointer;
+}
+.navbar a button:before{
+  content: "\eac4";
+  font-family: 'xeicon';
+  font-size: 40px;
+}
+.navbar{
+}
+.navbar ul{
+  position: absolute;
+  margin: 0;
+  padding : 0;
+  top : 50px;
+  right :5.2%;
+  width: 100%;
+}
+.navbar ul li{
+  position: relative;
+  list-style: none;
+  float: right;
+  margin-left: 100px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
+  font-size: 23px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: black;
+}
+#title{
+  font-weight: 500;
+}
+.navbar ul li:hover{
+  font-weight: 500;
+  cursor: pointer;
+}
+.head_img{
+  position: absolute;
+  top: 150px;
+  left : 5.2%;
+  width: 350px;
+  height: 715px;
+  background:;
+  overflow: hidden;
+}
+.img img{
+  width: 100%;
+}
+.title{
+  position: absolute;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: #303030;
+  top: 170px;
+  left : 6.2%;
+  line-height: 40px;
+}
+.sub_img a,.sub_img2 a{
+  text-decoration: none;
+  color: white;
+}
+
+/*첫줄*/
+.sub_img{
+  position: absolute;
+  left :720px;
+  margin-top :150px;
+  z-index: 0;
+  display: flex;
+  overflow: hidden;
+  margin-left: 400px;
+}
+.sub_img div{
+  width: 300px;
+  height: 340px;
+}
+.sub_1 , .sub_2{
+  margin-left: 50px;
+}
+.sub_img div img{
+  width: 100%;
+}
+.sub_1_1 , .sub_2_1 , .sub_3_1 ,.sub_4_1{
+  position: absolute;
+  top:150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba( 100,100,100, 0.7 );
+  max-height: 70px;
+  transition:all. 10s;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.sub_1:hover .sub_1_1{
+  top:80%;
+}
+.sub_2:hover .sub_2_1{
+  top:80%;
+}
+.sub_3:hover .sub_3_1{
+  top:80%;
+}
+.sub_4:hover .sub_4_1{
+  top:80%;
+}
+
+/*둘줄*/
+
+.sub_img2{
+  position: absolute;
+  margin-top :520px;
+  display: flex;
+  left :720px;
+  overflow: hidden;
+  margin-left: 100px;
+}
+.sub_img2 div{
+  width: 300px;
+  height: 340px;
+}
+.sub_4{
+  margin-left: 50px;
+}
+.sub_img2 div img{
+  width: 100%;
+}
